@@ -43,6 +43,8 @@ Copyright (C) Teemu Maatta.
   - [Embodied agent](#embodiedagent_definition)
   - [AI agent](#aiagent_defintion)
   - [Autonomous agent (my definition)](#aga_definition)
+- [Harness](#harness)
+- [Context](#context)
 - [Memory](#memory)
 - [Perception](#perception)
 - [Reasoning](#reasoning)
@@ -51,7 +53,7 @@ Copyright (C) Teemu Maatta.
     - [Role play](#roles)
     - [Emotions](#emotions)
     - [Consciousness](#consciousness)
-- [Skills](#skills) 
+- [Skills](#skills)
 - [Operating](#operator)
     - [GUIs](#gui)
     - [Navigation](#navigation)
@@ -377,6 +379,43 @@ Based on recent thoughts, I decided to update my prior definition to address the
 Autonomous agents (AA) is defined:
 
 **Autonomous Agent (AA) perceives, reasons, plans, and interacts using language, memories, emotions, and tools within environments of infinite actors, actions, modalities, and events to complete novel objectives over time, driven by survival and replication, and capable of self-construction guided by an adaptable core.**
+
+
+<div id="context">  
+</div>
+
+
+---
+
+<div align="center">
+
+### Context
+
+</div>
+
+AI vs. Human context window (ratio)[https://arxiv.org/pdf/2603.26707v1] has increased from 0.04 (2017) to 1.1k (2026). 
+
+- Context adaption
+- Context collapse
+
+
+
+<div id="harness">  
+</div>
+
+
+---
+
+<div align="center">
+
+### Harness
+
+</div>
+
+[Dawson et al. 2025](https://arxiv.org/abs/2506.14682) defined Agent harness as: "The code surrounding the model, the tools it has access to, and the representation of its provided environment." 
+- Agent performance is improved either through better AI models or better design and implementation of the harness.
+- Different harnesses use tools and context in varying ways, often relying on same models, resulting different strategies and performance levels. 
+- Highlights the shift from measuring traditional static benchmarks with focus in model capability, to measuring real-world capabilities of models via agentich benchmarks.
 
 
 
